@@ -41,7 +41,7 @@ public class MessageCommandTest {
 	}
 
 	@Test
-	public void testMatchEmptyl() {
+	public void testMatchEmpty() {
 		Assert.assertFalse(command.matches(""));
 	}
 

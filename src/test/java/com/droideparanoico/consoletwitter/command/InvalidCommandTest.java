@@ -38,7 +38,7 @@ public class InvalidCommandTest {
 	}
 
 	@Test
-	public void testMatchEmptyl() {
+	public void testMatchEmpty() {
 		Assert.assertFalse(command.matches(""));
 	}
 

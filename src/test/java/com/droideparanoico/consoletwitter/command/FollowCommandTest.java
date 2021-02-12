@@ -42,7 +42,7 @@ public class FollowCommandTest {
 	}
 
 	@Test
-	public void testMatchEmptyl() {
+	public void testMatchEmpty() {
 		Assert.assertFalse(command.matches(""));
 	}
 
